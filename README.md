@@ -22,4 +22,4 @@ After making a torch env do the following:
 - ### Inference
 1. Set the related path variables in infer.py module 
 - ### Refs
-A big for <p>:thumbsup:</p> Aladdin Persson tutorial [here](https://www.youtube.com/watch?v=y2BaTt1fxJU)
+A big for :thumbsup: Aladdin Persson [tutorial](https://www.youtube.com/watch?v=y2BaTt1fxJU)
