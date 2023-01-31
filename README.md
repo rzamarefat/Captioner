@@ -15,7 +15,8 @@
 | <img src="https://user-images.githubusercontent.com/79300456/215793378-2a90bfcf-bb80-4d5e-a72f-3160cb4c8de4.png" data-canonical-src="https://user-images.githubusercontent.com/79300456/215793378-2a90bfcf-bb80-4d5e-a72f-3160cb4c8de4.png" width="150" height="100" /> | Someone is putting colorful flowers into a vase   | فردی در حال گذاشتن گل های رنگارنگ در داخل یک گلدان شیشه ای است   |
 
 
-
 - Train
+1. Download Flicker8k Dataset
+2. 
 - Inference
 - Refs
