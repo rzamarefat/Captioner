@@ -20,8 +20,8 @@ After making a torch env do the following:
 - ### Inference
 1. Set the related path variables in infer.py module
 - ### ToDos
-1. Refactor based on OOP
-2. Provide pretrained ckpts
+- [] Refactor based on OOP
+- [] Provide pretrained ckpts
 - ### Refs
 - A big :thumbsup: for Aladdin Persson [tutorial](https://www.youtube.com/watch?v=y2BaTt1fxJU)
 - I have used [Abadis](https://abadis.ir/) and selenium for automatically translating English ground-truth captions 
