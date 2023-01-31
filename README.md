@@ -9,7 +9,6 @@
 | Image | English    | Persian    |
 | :---:   | :---: | :---: |
 | Seconds | 301   | 283   |
-| ---   | --- | --- |
 | Seconds | 301   | 283   |
 
 - Train
