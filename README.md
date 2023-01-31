@@ -15,7 +15,7 @@
 
 | Image | English    | Persian    |
 | :---:   | :---: | :---: |
-| <img src="https://user-images.githubusercontent.com/79300456/215793351-c859c844-b3a6-4971-92c0-464e8124e39e.png" data-canonical-src="https://user-images.githubusercontent.com/79300456/215793351-c859c844-b3a6-4971-92c0-464e8124e39e.png" width="250" height="200" /> | A woman in black shirt is sitting on the floor and playing the guitar   | زنی جوان روی زمین نشسته و در حال نواختن گیتار است.   |
+| <img src="https://user-images.githubusercontent.com/79300456/215793351-c859c844-b3a6-4971-92c0-464e8124e39e.png" data-canonical-src="https://user-images.githubusercontent.com/79300456/215793351-c859c844-b3a6-4971-92c0-464e8124e39e.png" width="150" height="100" /> | A woman in black shirt is sitting on the floor and playing the guitar   | زنی جوان روی زمین نشسته و در حال نواختن گیتار است.   |
 
 | <img src="https://user-images.githubusercontent.com/79300456/215793351-c859c844-b3a6-4971-92c0-464e8124e39e.png" data-canonical-src="https://user-images.githubusercontent.com/79300456/215793351-c859c844-b3a6-4971-92c0-464e8124e39e.png" width="250" height="200" /> | 301   | 283   |
 
