@@ -1,7 +1,7 @@
 # Captioner
 ## A bilingual en2end RNN-based approach for captioning images in English and Persian
 
-- Overview
+- ### Overview
 ![Bilingual_image_captioning (1)](https://user-images.githubusercontent.com/79300456/215791467-aac4fe16-dbdb-46ed-9d42-22ec1fd53217.jpg)
 
 - ### Examples
@@ -15,8 +15,11 @@
 | <img src="https://user-images.githubusercontent.com/79300456/215793378-2a90bfcf-bb80-4d5e-a72f-3160cb4c8de4.png" data-canonical-src="https://user-images.githubusercontent.com/79300456/215793378-2a90bfcf-bb80-4d5e-a72f-3160cb4c8de4.png" width="150" height="100" /> | Someone is putting colorful flowers into a vase   | فردی در حال گذاشتن گل های رنگارنگ در داخل یک گلدان شیشه ای است   |
 
 
-- Train
+- ### Train
+After making a torch env do the following:
 1. Download Flicker8k Dataset
-2. 
-- Inference
-- Refs
+2. Set the related path variables in train.py module
+- ### Inference
+1. Set the related path variables in infer.py module 
+- ### Refs
+A big for <p>:thumbsup:</p> Aldding Perssen tutorial [here](https://www.youtube.com/watch?v=y2BaTt1fxJU)
