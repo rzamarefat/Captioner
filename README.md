@@ -6,8 +6,10 @@
 
 - Examples
 
-| Attempt | #1    | #2    |
+| Image | English    | Persian    |
 | :---:   | :---: | :---: |
+| Seconds | 301   | 283   |
+| ---   | --- | --- |
 | Seconds | 301   | 283   |
 
 - Train
