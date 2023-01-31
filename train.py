@@ -4,7 +4,7 @@ import torch.nn as nn
 import torch.optim as optim
 import torchvision.transforms as transforms
 from torch.utils.tensorboard import SummaryWriter
-# from utils import save_checkpoint, load_checkpoint, print_examples
+from utils import save_checkpoint, load_checkpoint, print_examples
 from Dataset import get_loader
 from Model import CNNtoRNN
 
@@ -23,14 +23,15 @@ def train():
         annotation_file="/home/rmarefat/projects/github/image_captioning/en_farsi_captions.txt",
         transform=transform,
         num_workers=2,
+        batch_size=512
     )
 
     torch.backends.cudnn.benchmark = True
-    # device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     
-    device  = 'cpu'
+    # device  = 'cpu'
     load_model = False
-    save_model = False
+    save_model = True
     train_CNN = False
 
     # Hyperparameters
@@ -66,7 +67,7 @@ def train():
         step = load_checkpoint(torch.load("my_checkpoint.pth.tar"), model, optimizer)
 
     model.train()
-
+    running_loss = []
     for epoch in range(num_epochs):
         # Uncomment the line below to see a couple of test cases
         # print_examples(model, device, dataset)
@@ -97,6 +98,8 @@ def train():
 
 
             loss = en_loss + fa_loss
+
+            running_loss.append(loss.item())
             
             writer.add_scalar("Training loss", loss.item(), global_step=step)
             step += 1
@@ -105,6 +108,12 @@ def train():
             loss.backward(loss)
             optimizer.step()
 
+            
+
+            torch.save(model.state_dict(), f"/home/rmarefat/projects/github/image_captioning/weights/{epoch}.pt")
+
+        avg_loss = round(sum(running_loss) / len(running_loss), 3)
+        print(f"Epoch: {epoch} | Loss: {avg_loss}")
 
 if __name__ == "__main__":
     train()
